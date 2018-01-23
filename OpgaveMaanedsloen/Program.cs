@@ -24,7 +24,7 @@ namespace OpgaveMaanedsloen
                 Console.WriteLine("Månedsløn nr. " + (i+1) + ": " + salaryArray[i].ToString("N2"));
             }
 
-            if (salaryArray.Length > 0)
+            if (salaryArray.Length != 0)
             {
                 gns = salaryTotal / salaryArray.Length;
             }
