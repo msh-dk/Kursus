@@ -11,6 +11,7 @@ namespace Module02_HelloWorld
         /// <param name="args">Aplication arguments. Must be 1 or 2</param>
         static void Main(string[] args)
         {
+            //Test
             Console.Title = applicationTitle;
 
             if (args.Length == 0)
