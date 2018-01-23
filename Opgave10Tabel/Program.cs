@@ -12,13 +12,10 @@ namespace Opgave10Tabel
         {
             int[] numbers1 = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
             int[] numbers2 = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
-            string row = "";
 
             foreach (var item in numbers1)
             {
 
-                row = "";
-                
                 for (int i = 0; i < numbers2.Length; i++)
                 {
                     int sum = 0;
