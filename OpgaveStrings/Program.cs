@@ -39,7 +39,7 @@ namespace OpgaveStrings
             try
             {
                 System.IO.StreamWriter file = new System.IO.StreamWriter(@"c:\temp\myFile1.txt");
-                file.WriteLine(myBuilder.ToString()); // "sb" is the StringBuilder
+                file.WriteLine(myBuilder.ToString()); 
                 file.Flush();
                 file.Close();
 
