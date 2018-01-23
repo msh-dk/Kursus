@@ -19,6 +19,7 @@ namespace Opgave10Tabel
                 for (int i = 0; i < numbers2.Length; i++)
                 {
                     int sum = 0;
+
                     sum = item * numbers2[i];
                     if (sum > 50)
                     {
@@ -29,12 +30,22 @@ namespace Opgave10Tabel
                     {
                         Console.ForegroundColor = ConsoleColor.White;
                       }
+
                     Console.Write(sum.ToString().PadLeft(4));
             
                 }
+               
                 Console.WriteLine();
 
             }
+            Console.ForegroundColor = ConsoleColor.Blue;
+
+            Console.WriteLine(TestOverLoad("ertyu"));
+            Console.WriteLine(TestOverLoad(23));
+
+            OptionalTest(8);
+            OptionalTest(5, 4);
+            OptionalTest(7, 7, true);
 
             if (System.Diagnostics.Debugger.IsAttached)
             {
@@ -42,5 +53,21 @@ namespace Opgave10Tabel
                 System.Console.ReadKey();
             }
         }
+
+        private static void OptionalTest(int x, int y=1, bool z = false)
+        {
+
+        }
+        private static int TestOverLoad(int y)
+        {
+            return y;
+        }
+
+        private static int TestOverLoad(string x)
+        {
+            return x.Length;
+        }
     }
+
+    
 }
