@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module07_Properties", "Modu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpgaveVariabler", "OpgaveVariabler\OpgaveVariabler.csproj", "{AFA7D670-002C-4358-8113-C76CEA3B8F3E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpgaveMaanedsloen", "OpgaveMaanedsloen\OpgaveMaanedsloen.csproj", "{987A1154-2C45-4796-AF06-B1CC18744712}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -103,6 +105,10 @@ Global
 		{AFA7D670-002C-4358-8113-C76CEA3B8F3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AFA7D670-002C-4358-8113-C76CEA3B8F3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AFA7D670-002C-4358-8113-C76CEA3B8F3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{987A1154-2C45-4796-AF06-B1CC18744712}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{987A1154-2C45-4796-AF06-B1CC18744712}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{987A1154-2C45-4796-AF06-B1CC18744712}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{987A1154-2C45-4796-AF06-B1CC18744712}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -123,6 +129,7 @@ Global
 		{1ADB742F-AFC9-48E4-A036-484829B78DFF} = {614BAE00-84EB-47BC-8C41-71B6E2131A8C}
 		{76322B76-8542-4732-B944-23F75E811409} = {614BAE00-84EB-47BC-8C41-71B6E2131A8C}
 		{AFA7D670-002C-4358-8113-C76CEA3B8F3E} = {5E1B2542-C3EE-4515-8C83-C8E805B50E0F}
+		{987A1154-2C45-4796-AF06-B1CC18744712} = {5E1B2542-C3EE-4515-8C83-C8E805B50E0F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A5354BDA-3E12-4F48-8A32-DAFA5BEC4AA4}
