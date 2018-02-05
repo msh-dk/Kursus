@@ -53,6 +53,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpgaveEgenskaber", "OpgaveE
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpgaveTrekant", "OpgaveTrekant\OpgaveTrekant.csproj", "{E27B8B3E-CC9C-4115-B514-1AE5045E25C0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpgaveArealBeregninger.cs", "OpgaveArealBeregninger.cs\OpgaveArealBeregninger.cs.csproj", "{049C2B7A-1121-460B-87F1-B73A4FA3F4CE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -151,6 +153,10 @@ Global
 		{E27B8B3E-CC9C-4115-B514-1AE5045E25C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E27B8B3E-CC9C-4115-B514-1AE5045E25C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E27B8B3E-CC9C-4115-B514-1AE5045E25C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{049C2B7A-1121-460B-87F1-B73A4FA3F4CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{049C2B7A-1121-460B-87F1-B73A4FA3F4CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{049C2B7A-1121-460B-87F1-B73A4FA3F4CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{049C2B7A-1121-460B-87F1-B73A4FA3F4CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -179,6 +185,7 @@ Global
 		{72A54993-3CEE-4622-82DF-C32D470DE485} = {5E1B2542-C3EE-4515-8C83-C8E805B50E0F}
 		{1B2BBBC7-6F73-43EB-BE37-460350B61397} = {5E1B2542-C3EE-4515-8C83-C8E805B50E0F}
 		{E27B8B3E-CC9C-4115-B514-1AE5045E25C0} = {5E1B2542-C3EE-4515-8C83-C8E805B50E0F}
+		{049C2B7A-1121-460B-87F1-B73A4FA3F4CE} = {5E1B2542-C3EE-4515-8C83-C8E805B50E0F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A5354BDA-3E12-4F48-8A32-DAFA5BEC4AA4}
