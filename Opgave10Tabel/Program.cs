@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Opgave10Tabel
 {
-    class Program
+    class Program 
     {
         static void Main(string[] args)
         {
