@@ -11,7 +11,7 @@ namespace OpgaveArealBeregninger.cs
         public static double BeregnArealFirkant(double højde, double bredde)
         {
             return højde * bredde;
-        }
+        } 
 
         public static double BeregnArealCirkel(double radius)
         {
