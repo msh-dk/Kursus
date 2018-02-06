@@ -10,7 +10,7 @@ namespace OpgaveSimpleClass
     {
         static void Main(string[] args)
         {
-            Person a = new Person("a", "b");
+            Person a = new Person("a", "b",1945);
             string a_navn = a.FuldtNavn();
 
             Person b = new Person("b", "c", 1967);
